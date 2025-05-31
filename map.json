@@ -3,11 +3,21 @@
     "id": "belgium_osm_2025_q2",
     "name": "Belgium (Zoom 0-13)",
     "region": "Europe - West",
-    "description": "Detailed OpenStreetMap raster tiles for Belgium, suitable for offline use. Updated quarterly.",
+    "description": "OpenStreetMap raster tiles for Belgium, suitable for offline use. Updated quarterly.",
     "url": "https://download1085.mediafire.com/otxlgg2yjelgAIMsk1MYby9HP4XzN-VjFqvxNhhN6N1a_5mkEqwrKB8-7wYKauo09xtq7DenUTa8GhQyAj6RmegFXPEhDjkRNv_jvKFVTQD1JNZ5gcijvIBS0n0kabxEhM0aHImiENcoP9Xu44m7dP0QlB6ifnm32sJf5p8NZBd8Pg/o8u2bpdgblneedf/belgium_osm.mbtiles",
     "size_mb": 190,
     "version": "2025.05.20",
     "checksum_sha256": "d4f22d65b65c17018e5fa06393bb71b57d5ffe42bad325a5a6116230d6c3edab"
+  },
+  {
+    "id": "belgium_detailed_osm_2025_q2",
+    "name": "Belgium (Zoom 0-15)",
+    "region": "Europe - West",
+    "description": "Detailed OpenStreetMap raster tiles for Belgium, suitable for offline use. Updated quarterly.",
+    "url": "https://download1320.mediafire.com/gssyfisv80jg7zfLN8bTsAZINfpYdhE_Gx03fcsKLZg2niUk2mnUEcmhuiD-0iub34C9k-BupoozatI9mo4S8vgQhgJkOImn-515VvQ5qj90YkUAmID_cDNB2IkjCXePl36b80qlJFSWebGg7BJ7K3njUvnyHE2J1K13pLYvEJ467w/60fe3rf6cjq1mp7/belgium_detailed_osm.mbtiles",
+    "size_mb": 1930,
+    "version": "2025.05.20",
+    "checksum_sha256": "e8b23240a1962d95f6c85d1e49b561143a4c6a58c5261007edab6020cbd08541"
   },
   {
     "id": "world_overview_0_8",
