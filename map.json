@@ -1,19 +1,9 @@
 [
   {
-    "id": "belgium_osm_2025_q2",
-    "name": "Belgium (Zoom 0-15)",
-    "region": "Europe - West",
-    "description": "Detailed OpenStreetMap raster tiles for Belgium, suitable for offline use. Updated quarterly.",
-    "url": "",
-    "size_mb": 1800,
-    "version": "2025.05.20",
-    "checksum_sha256": "71995a1db87c0561b89fc63d2636cce5ef2dff0607462f6c795a66d4e7448e36"
-  },
-  {
     "id": "world_overview_0_8",
     "name": "World Overview (Zoom 0-6)",
     "region": "Global",
-    "description": "Basic world overview map, zoom levels 0 through 6. mediafire",
+    "description": "Basic world overview map, zoom levels 0 through 6.",
     "url": "https://download1507.mediafire.com/n64n9linfaagupV8BbqgvTa2hD3PKlOauiNrX713KO_rW4zT9UiFBjfZIwo4H1rQIv7v0ui8-nJxK69hDygL_HveVpvi_C7lClOCcAw3HTesmt66SU7Je0GekxPcszpC8aXTku-3l9EGG5EGrNPycRIqAAhehDG70MS8X_OjN8i5ew/qorq2bzsnw6moma/world_osm.mbtiles",
     "size_mb": 285,
     "version": "2025.05.20",
