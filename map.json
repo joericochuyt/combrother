@@ -5,7 +5,7 @@
     "region": "Europe - West",
     "description": "Detailed OpenStreetMap raster tiles for Belgium, suitable for offline use. Updated quarterly.",
     "url": "https://download1085.mediafire.com/otxlgg2yjelgAIMsk1MYby9HP4XzN-VjFqvxNhhN6N1a_5mkEqwrKB8-7wYKauo09xtq7DenUTa8GhQyAj6RmegFXPEhDjkRNv_jvKFVTQD1JNZ5gcijvIBS0n0kabxEhM0aHImiENcoP9Xu44m7dP0QlB6ifnm32sJf5p8NZBd8Pg/o8u2bpdgblneedf/belgium_osm.mbtiles",
-    "size_mb": 1800,
+    "size_mb": 190,
     "version": "2025.05.20",
     "checksum_sha256": "d4f22d65b65c17018e5fa06393bb71b57d5ffe42bad325a5a6116230d6c3edab"
   },
