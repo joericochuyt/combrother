@@ -20,6 +20,16 @@
     "checksum_sha256": "e8b23240a1962d95f6c85d1e49b561143a4c6a58c5261007edab6020cbd08541"
   },
   {
+    "id": "netherlands_osm_osm_2025_q2",
+    "name": "Netherlands (Zoom 0-14)",
+    "region": "Europe - West",
+    "description": "Detailed OpenStreetMap raster tiles for the Netherlands, suitable for offline use. Updated quarterly.",
+    "url": "https://download1640.mediafire.com/lsfjav7qeyngqW2rs-APHIPyPj61Zgo-3LXhIlCVdJrbfes3lSqwtVegt3_GNeIw5LRsjduSqtZ8OmPWt-naxqLHsWuKdU5AgVEdPbsdn_JzJwN4oPnRt2VAix6pDDX_IyQWeuR48ocRSKYNds8QEJO7Lm8YwSjVAd-V8Hpt470WjA/w5axiw9zvla6ui9/netherlands_osm.mbtiles",
+    "size_mb": 785,
+    "version": "2025.05.31",
+    "checksum_sha256": "9545899078a7e6f6c1baa740fe8445c6c4a9d1935dc437b8683d6a2caa454544"
+  },
+  {
     "id": "world_overview_0_8",
     "name": "World Overview (Zoom 0-6)",
     "region": "Global",
