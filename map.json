@@ -30,6 +30,16 @@
     "checksum_sha256": "9545899078a7e6f6c1baa740fe8445c6c4a9d1935dc437b8683d6a2caa454544"
   },
   {
+    "id": "luxembourg_osm_osm_2025_q2",
+    "name": "Luxembourrg (Zoom 0-14)",
+    "region": "Europe - West",
+    "description": "Detailed OpenStreetMap raster tiles for Luxembourg, suitable for offline use. Updated quarterly.",
+    "url": "https://download1336.mediafire.com/c3mzsof9xg9gP2TrvZG1a-lUdbe7OiTaVveB-e9fsI5DEGHrGSRLI0f3oT-GjitvT6XX8V6AvyqJG3sAB5rJtzYNuXTR20u4UqsrX_Xa5NdE5w4NHKWDByCQXuLb1DIEwUpIWOitxl9JL27DBnUvRSzuL-F2-89nP0OAaJs4xkCXqQ/k3zvi7lr3enjg7h/luxembourg_osm.mbtiles",
+    "size_mb": 63,
+    "version": "2025.05.31",
+    "checksum_sha256": "c605bfef732dcb197ec3687f3e736895c0be533fe9481858f79e0e63da7c6531"
+  },
+  {
     "id": "world_overview_0_8",
     "name": "World Overview (Zoom 0-6)",
     "region": "Global",
