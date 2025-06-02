@@ -20,8 +20,18 @@
     "checksum_sha256": "9545899078a7e6f6c1baa740fe8445c6c4a9d1935dc437b8683d6a2caa454544"
   },
   {
+    "id": "france_osm_2025_q2",
+    "name": "France (Zoom 0-14)",
+    "region": "Europe - West",
+    "description": "Detailed OpenStreetMap raster tiles for France, suitable for offline use. Updated quarterly.",
+    "s3_object_key": "france_osm.mbtiles",
+    "size_mb": 658,
+    "version": "2025.05.31",
+    "checksum_sha256": "25b28b1a9815853a04ac97a95184b28934bfb4db8b416126d866b91eca0b4857"
+  },
+  {
     "id": "luxembourg_osm_2025_q2",
-    "name": "Luxembourrg (Zoom 0-14)",
+    "name": "Luxembourg (Zoom 0-14)",
     "region": "Europe - West",
     "description": "Detailed OpenStreetMap raster tiles for Luxembourg, suitable for offline use. Updated quarterly.",
     "s3_object_key": "luxembourg_osm.mbtiles",
