@@ -1,13 +1,13 @@
 [
   {
     "id": "belgium_osm_2025_q2",
-    "name": "Belgium (Zoom 0-13)",
+    "name": "Belgium (Zoom 0-14)",
     "region": "Europe - West",
     "description": "OpenStreetMap raster tiles for Belgium, suitable for offline use. Updated quarterly.",
     "s3_object_key": "belgium_osm.mbtiles",
     "size_mb": 190,
     "version": "2025.05.20",
-    "checksum_sha256": "d4f22d65b65c17018e5fa06393bb71b57d5ffe42bad325a5a6116230d6c3edab"
+    "checksum_sha256": "009946d38155916dfe1c35fc5426cb859af0c8712200ebe7e99175cfe1dbb35e"
   },
   {
     "id": "netherlands_osm_2025_q2",
