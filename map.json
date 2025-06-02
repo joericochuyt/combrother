@@ -5,7 +5,7 @@
     "region": "Europe - West",
     "description": "OpenStreetMap raster tiles for Belgium, suitable for offline use. Updated quarterly.",
     "s3_object_key": "belgium_osm.mbtiles",
-    "size_mb": 190,
+    "size_mb": 607,
     "version": "2025.05.20",
     "checksum_sha256": "009946d38155916dfe1c35fc5426cb859af0c8712200ebe7e99175cfe1dbb35e"
   },
