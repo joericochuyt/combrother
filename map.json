@@ -41,7 +41,7 @@
   },
   {
     "id": "germany_osm_2025_q2",
-    "name": "Germany (Zoom 0-14)",
+    "name": "Germany (Zoom 0-13)",
     "region": "Europe - West",
     "description": "Detailed OpenStreetMap raster tiles for Germany, suitable for offline use. Updated quarterly.",
     "s3_object_key": "germany_osm.mbtiles",
