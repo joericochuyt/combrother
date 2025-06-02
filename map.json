@@ -4,7 +4,7 @@
     "name": "Belgium (Zoom 0-13)",
     "region": "Europe - West",
     "description": "OpenStreetMap raster tiles for Belgium, suitable for offline use. Updated quarterly.",
-    "url": "belgium_osm.mbtiles",
+    "s3_object_key": "belgium_osm.mbtiles",
     "size_mb": 190,
     "version": "2025.05.20",
     "checksum_sha256": "d4f22d65b65c17018e5fa06393bb71b57d5ffe42bad325a5a6116230d6c3edab"
@@ -14,7 +14,7 @@
     "name": "Netherlands (Zoom 0-14)",
     "region": "Europe - West",
     "description": "Detailed OpenStreetMap raster tiles for the Netherlands, suitable for offline use. Updated quarterly.",
-    "url": "netherlands_osm.mbtiles",
+    "s3_object_key": "netherlands_osm.mbtiles",
     "size_mb": 785,
     "version": "2025.05.31",
     "checksum_sha256": "9545899078a7e6f6c1baa740fe8445c6c4a9d1935dc437b8683d6a2caa454544"
@@ -24,7 +24,7 @@
     "name": "Luxembourrg (Zoom 0-14)",
     "region": "Europe - West",
     "description": "Detailed OpenStreetMap raster tiles for Luxembourg, suitable for offline use. Updated quarterly.",
-    "url": "luxembourg_osm.mbtiles",
+    "s3_object_key": "luxembourg_osm.mbtiles",
     "size_mb": 63,
     "version": "2025.05.31",
     "checksum_sha256": "c605bfef732dcb197ec3687f3e736895c0be533fe9481858f79e0e63da7c6531"
@@ -34,7 +34,7 @@
     "name": "World Overview (Zoom 0-6)",
     "region": "Global",
     "description": "Basic world overview map, zoom levels 0 through 6.",
-    "url": "world_osm.mbtiles",
+    "s3_object_key": "world_osm.mbtiles",
     "size_mb": 285,
     "version": "2025.05.20",
     "checksum_sha256": "56fc032286827d1c2f88a1ee7d084ad22d1ba0666fbdf2b8beda0e8789453217"
