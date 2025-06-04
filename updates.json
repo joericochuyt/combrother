@@ -5,17 +5,9 @@
       "version": "1.5.9-beta",
       "release_date": "2025-06-15",
       "description": "Added new warp drive feature and fixed minor UI glitches. Improved stability with Martian communication arrays.",
-      "download_url_windows": "s3_object_key_for_combrother_1.5.9_setup.exe",
-      "checksum_sha256_windows": "",
-      "size_mb_windows": 41
-    },
-    {
-      "version": "1.5.8-beta",
-      "release_date": "2025-06-01",
-      "description": "Bug fixes and performance improvements. Map download checksums.",
-      "download_url_windows": "s3_object_key_for_combrother_1.5.8_setup.exe",
-      "checksum_sha256_windows": "",
-      "size_mb_windows": 41
+      "download_url_windows": "Combrother_1.5.9.exe",
+      "checksum_sha256_windows": "baba36fa7e2182d3e87e9becbebfa82095bae0c807f3a0ad03f2abdb59b01ebd",
+      "size_mb_windows": 40
     }
   ]
 }
