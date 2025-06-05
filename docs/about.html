@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComBrother - Emergency Communication System</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: #e5e5e5;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #1f1f1f;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            border-radius: 12px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #404040;
+        }
+        
+        .logo {
+            font-size: 48px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+        
+        .tagline {
+            font-size: 18px;
+            color: #888;
+            font-weight: 300;
+            margin-bottom: 15px;
+        }
+        
+        .version {
+            display: inline-block;
+            background: linear-gradient(45deg, #404040, #606060);
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        h1 {
+            color: #ffffff;
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 25px;
+            line-height: 1.2;
+        }
+        
+        h2 {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 600;
+            margin: 40px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #404040;
+        }
+        
+        h3 {
+            color: #cccccc;
+            font-size: 18px;
+            font-weight: 500;
+            margin: 25px 0 15px 0;
+        }
+        
+        p {
+            margin-bottom: 16px;
+            color: #b5b5b5;
+            text-align: justify;
+        }
+        
+        .intro {
+            background: linear-gradient(135deg, #2a2a2a, #353535);
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            border-left: 4px solid #666;
+        }
+        
+        .intro p {
+            font-size: 18px;
+            line-height: 1.7;
+            color: #d5d5d5;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .feature-card {
+            background: #2a2a2a;
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid #404040;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-2px);
+            border-color: #606060;
+        }
+        
+        .feature-card h4 {
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        
+        .feature-card p {
+            font-size: 14px;
+            color: #999;
+            margin: 0;
+        }
+        
+        ul {
+            list-style: none;
+            margin: 20px 0;
+        }
+        
+        ul li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 8px;
+            color: #b5b5b5;
+        }
+        
+        ul li::before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #666;
+            font-weight: bold;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #333, #404040);
+            padding: 25px;
+            border-radius: 8px;
+            margin: 25px 0;
+            border-left: 4px solid #888;
+        }
+        
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 30px 0;
+        }
+        
+        .tech-specs {
+            background: #252525;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #404040;
+        }
+        
+        .tech-specs h4 {
+            color: #ffffff;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        
+        .tech-specs ul li {
+            font-size: 14px;
+            padding-left: 20px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #404040;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 768px) {
+            .two-column {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                margin: 10px;
+                padding: 30px 15px;
+            }
+            
+            .logo {
+                font-size: 36px;
+            }
+        }
+        
+        @media print {
+            body {
+                background: white;
+                color: black;
+            }
+            
+            .container {
+                background: white;
+                box-shadow: none;
+                margin: 0;
+                padding: 20px;
+            }
+            
+            h1, h2, .logo {
+                color: black;
+            }
+            
+            p, ul li {
+                color: #333;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">ComBrother</div>
+            <div class="tagline">Emergency Communication Scheduler</div>
+            <div class="version">v1.5.7-beta</div>
+        </div>
+
+        <div class="intro">
+            <p>In an era of unprecedented digital connectivity, our dependence on conventional communication networks has become absolute. Yet these systems remain surprisingly vulnerable. Natural disasters, power grid failures, infrastructure damage, or cyber-attacks can instantly sever these vital connections. ComBrother provides a robust solution for maintaining communication when traditional networks fail.</p>
+        </div>
+
+        <h1>Why ComBrother Matters</h1>
+        
+        <p>ComBrother isn't just software—it's a comprehensive preparedness strategy. It empowers individuals and small groups to create predefined, resilient communication plans that operate independently of grid infrastructure or internet connectivity.</p>
+
+        <h2>Core Advantages</h2>
+
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h4>Grid-Independent Operation</h4>
+                <p>Leverages direct radio-to-radio communication using common, accessible hardware like PMR, FRS, GMRS, or amateur radio transceivers.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h4>Deterministic Scheduling</h4>
+                <p>Uses shared secret information to generate identical communication schedules independently on multiple devices.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h4>Privacy-First Design</h4>
+                <p>All user data, profiles, and schedules are stored locally. No centralized servers required for operation.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h4>Low Power Efficiency</h4>
+                <p>Optimized for extended operation on low-power hardware with e-ink displays for maximum battery life.</p>
+            </div>
+        </div>
+
+        <h2>Key Features</h2>
+
+        <div class="two-column">
+            <div>
+                <h3>Profile Management</h3>
+                <ul>
+                    <li>Multiple user profiles with dual date-of-birth authentication</li>
+                    <li>Callsign storage and location-based scheduling</li>
+                    <li>Timezone-aware celestial calculations</li>
+                    <li>Automated schedule regeneration</li>
+                </ul>
+
+                <h3>Radio Configuration</h3>
+                <ul>
+                    <li>Support for multiple frequency bands (PMRS, GMRS, FRS, Amateur)</li>
+                    <li>Custom band creation and management</li>
+                    <li>Repeater configuration and integration</li>
+                    <li>CTCSS tone assignment for privacy</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3>Data Export & Interoperability</h3>
+                <ul>
+                    <li>CHIRP CSV export for radio programming</li>
+                    <li>Plain text schedule generation</li>
+                    <li>Hardware device configuration export</li>
+                    <li>Zone/bank organization support</li>
+                </ul>
+
+                <h3>Mule Network Integration</h3>
+                <ul>
+                    <li>LoRa packet communication support</li>
+                    <li>GPS location tracking and mapping</li>
+                    <li>Message relay capabilities</li>
+                    <li>Offline map support with MBTiles</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Use Cases</h2>
+
+        <div class="highlight-box">
+            <h3>Emergency Preparedness</h3>
+            <p>Primary use case for maintaining family communication during natural disasters, power outages, or infrastructure failures when cellular and internet services are unavailable.</p>
+        </div>
+
+        <div class="two-column">
+            <div class="tech-specs">
+                <h4>Outdoor & Remote Activities</h4>
+                <ul>
+                    <li>Hiking and mountaineering expeditions</li>
+                    <li>Backcountry exploration</li>
+                    <li>Overlanding and off-road adventures</li>
+                    <li>Marine and aviation activities</li>
+                </ul>
+            </div>
+            
+            <div class="tech-specs">
+                <h4>Community Applications</h4>
+                <ul>
+                    <li>Rural and remote community coordination</li>
+                    <li>Neighborhood watch programs</li>
+                    <li>Event management and volunteer coordination</li>
+                    <li>Educational preparedness training</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Technical Specifications</h2>
+
+        <div class="tech-specs">
+            <h4>System Requirements</h4>
+            <ul>
+                <li>Cross-platform desktop application (Windows, macOS, Linux)</li>
+                <li>Raspberry Pi Zero support for field devices</li>
+                <li>E-ink display compatibility for low-power operation</li>
+                <li>Local database storage with backup/restore capabilities</li>
+                <li>Offline-first operation with optional online features</li>
+            </ul>
+        </div>
+
+        <div class="highlight-box">
+            <h3>Schedule Generation Algorithm</h3>
+            <p>ComBrother's deterministic scheduling ensures that separated users can independently generate identical communication windows. Using shared profile information, the system creates daily schedules with specific 5-minute contact windows across Morning, Afternoon, and Evening slots, complete with frequency assignments and privacy tones.</p>
+        </div>
+
+        <h2>Getting Started</h2>
+
+        <p>Setting up ComBrother involves creating user profiles with shared authentication data, configuring radio band preferences, and generating your first communication schedule. The system provides emergency quick-connect slots and supports both simplex and repeater operations.</p>
+
+        <p>For field deployment, export device configurations to dedicated hardware for extended battery life and weather-resistant operation. The integrated mapping system helps coordinate location-based communications and supports message relay through the innovative Mule network.</p>
+
+        <div class="footer">
+            <p>ComBrother Emergency Communication Scheduler - Resilient Communication for Critical Situations</p>
+        </div>
+    </div>
+</body>
+</html>
