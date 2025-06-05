@@ -205,8 +205,39 @@
             font-size: 14px;
         }
         
+        .screenshot-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+        
+        .screenshot-item {
+            background: #2a2a2a;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #404040;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .screenshot-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        }
+        
+        .screenshot {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-bottom: 1px solid #404040;
+        }
+        
         @media (max-width: 768px) {
             .two-column {
+                grid-template-columns: 1fr;
+            }
+            
+            .screenshot-gallery {
                 grid-template-columns: 1fr;
             }
             
@@ -368,6 +399,30 @@
         <div class="highlight-box">
             <h3>Schedule Generation Algorithm</h3>
             <p>ComBrother's deterministic scheduling ensures that separated users can independently generate identical communication windows. Using shared profile information, the system creates daily schedules with specific 5-minute contact windows across Morning, Afternoon, and Evening slots, complete with frequency assignments and privacy tones.</p>
+        </div>
+
+        <h2>Interface Screenshots</h2>
+
+        <div class="screenshot-gallery">
+            <div class="screenshot-item">
+                <img src="images/main-interface.png" alt="ComBrother Main Interface" class="screenshot">
+                <div class="screenshot-caption">Main interface showing communication schedule and mule network status</div>
+            </div>
+            
+            <div class="screenshot-item">
+                <img src="images/profile-management.png" alt="Profile Management" class="screenshot">
+                <div class="screenshot-caption">Profile management with location settings and notification preferences</div>
+            </div>
+            
+            <div class="screenshot-item">
+                <img src="images/repeater-config.png" alt="Repeater Configuration" class="screenshot">
+                <div class="screenshot-caption">Repeater configuration interface with frequency and tone settings</div>
+            </div>
+            
+            <div class="screenshot-item">
+                <img src="images/map-view.png" alt="Mapping Interface" class="screenshot">
+                <div class="screenshot-caption">Integrated mapping with GPS tracking and message visualization</div>
+            </div>
         </div>
 
         <h2>Getting Started</h2>
