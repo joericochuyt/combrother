@@ -4,6 +4,14 @@
     {
       "version": "1.6.2-beta",
       "release_date": "2025-06-08",
+      "description": "Added map and update urls to settings dialog",
+      "s3_object_key_windows": "ComBrother_1.6.2.exe",
+      "checksum_sha256_windows": "d4bcf34b3143b705392e5f4263b86975c5260bed2de51bafebb3dd5b6df3d7e1",
+      "size_mb_windows": 41
+    },
+    {
+      "version": "1.6.1-beta",
+      "release_date": "2025-06-08",
       "description": "Changed size off the application... Feng shuiiiii",
       "s3_object_key_windows": "ComBrother_1.6.1.exe",
       "checksum_sha256_windows": "adbd225c5ce2531dc877275e2eed8cacd8d2530488265f7a76ac80e7a7e0c2ec",
