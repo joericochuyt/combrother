@@ -1,6 +1,14 @@
 {
-  "latest_version": "1.6.0-beta",
+  "latest_version": "1.6.1-beta",
   "versions": [
+    {
+      "version": "1.6.1-beta",
+      "release_date": "2025-06-08",
+      "description": "Changed size off the application... Feng shuiiiii",
+      "s3_object_key_windows": "ComBrother_1.6.1.exe",
+      "checksum_sha256_windows": "bbb2c843b521ac9360040cc0b6e7e3243a2c5d7b8b2329036182d0f3d26e7f10",
+      "size_mb_windows": 41
+    },
     {
       "version": "1.6.0-beta",
       "release_date": "2025-06-05",
