@@ -30,7 +30,7 @@
       "release_date": "2025-06-05",
       "description": "Fixed minor UI glitches in card preview. Added read and unread styles for mule messages.",
       "s3_object_key_windows": "ComBrother_1.6.0.exe",
-      "checksum_sha256_windows": "8b2e70e4b4f8c18679643800d7065678dded6b19240bf08d8e085d450928c832",
+      "checksum_sha256_windows": "9e107c847bf149cd1636c52125fba0c664b333ba76c35b4b10a792cba922aedd",
       "size_mb_windows": 41
     }
   ]
