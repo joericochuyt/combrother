@@ -1,6 +1,14 @@
 {
-  "latest_version": "1.6.2-beta",
+  "latest_version": "1.6.3-beta",
   "versions": [
+    {
+      "version": "1.6.3-beta",
+      "release_date": "2025-06-10",
+      "description": "Added error handling text to check for updates and map config dialog",
+      "s3_object_key_windows": "ComBrother_1.6.3.exe",
+      "checksum_sha256_windows": "f432d45a8409ee237a4e068b6d502d21a07c40a103705bfcc33f219354ec611c",
+      "size_mb_windows": 41
+    },
     {
       "version": "1.6.2-beta",
       "release_date": "2025-06-08",
