@@ -1,13 +1,13 @@
 {
-  "latest_version": "1.6.4-beta",
+  "latest_version": "1.6.5-beta",
   "versions": [
     {
-      "version": "1.6.4-beta",
-      "release_date": "2025-06-10",
-      "description": "Added older versions in check for updates. Added CLI support",
-      "s3_object_key_windows": "ComBrother_1.6.4.exe",
-      "checksum_sha256_windows": "54d3d14840b08880caefc66e398557318a84b1edeb891cdc1655785d9de46b65",
-      "size_mb_windows": 47
+      "version": "1.6.5-beta",
+      "release_date": "2025-06-11",
+      "description": "Added mail icon indicating unread messages",
+      "s3_object_key_windows": "ComBrother_1.6.5.exe",
+      "checksum_sha256_windows": "981f47fe671c40206fd7dc30f18bc1d51bd61721a6ab83f9628684512a36e361",
+      "size_mb_windows": 48
     },
     {
       "version": "CLI_1.6.4-beta",
@@ -16,6 +16,14 @@
       "s3_object_key_windows": "combrother_cli.exe",
       "checksum_sha256_windows": "8f2bca3e75145bf22644b07e06832fe9681b83b64b8caab0d4c91eb4e139c56e",
       "size_mb_windows": 7
+    },
+    {
+      "version": "1.6.4-beta",
+      "release_date": "2025-06-10",
+      "description": "Added older versions in check for updates. Added CLI support",
+      "s3_object_key_windows": "ComBrother_1.6.4.exe",
+      "checksum_sha256_windows": "54d3d14840b08880caefc66e398557318a84b1edeb891cdc1655785d9de46b65",
+      "size_mb_windows": 47
     },
     {
       "version": "1.6.3-beta",
