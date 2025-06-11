@@ -4,13 +4,13 @@
     {
       "version": "1.6.5-beta",
       "release_date": "2025-06-11",
-      "description": "Added mail icon indicating unread messages",
+      "description": "Added mail icon indicating unread messages. Added custom messages if set to the simulated data. Added simulated data for all profiles available",
       "s3_object_key_windows": "ComBrother_1.6.5.exe",
-      "checksum_sha256_windows": "981f47fe671c40206fd7dc30f18bc1d51bd61721a6ab83f9628684512a36e361",
+      "checksum_sha256_windows": "a5eaddbfe72048e49d75b9615953831db7e3728a5756624d7b08362a2bf334fb",
       "size_mb_windows": 48
     },
     {
-      "version": "CLI_1.6.4-beta",
+      "version": "CLI-beta",
       "release_date": "2025-06-10",
       "description": "CLI combrother_cli.exe --help",
       "s3_object_key_windows": "combrother_cli.exe",
