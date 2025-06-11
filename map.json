@@ -40,6 +40,16 @@
     "checksum_sha256": "c605bfef732dcb197ec3687f3e736895c0be533fe9481858f79e0e63da7c6531"
   },
   {
+    "id": "england_osm_2025_q2",
+    "name": "England (Zoom 0-13)",
+    "region": "Europe - West",
+    "description": "Detailed OpenStreetMap raster tiles for England, suitable for offline use. Updated quarterly.",
+    "s3_object_key": "england_osm.mbtiles",
+    "size_mb": 507,
+    "version": "2025.06.11",
+    "checksum_sha256": "42637c31d2331d9843252b9bfa49f26b9da2cf652b1900f5a3b0db7485945577"
+  },
+  {
     "id": "germany_osm_2025_q2",
     "name": "Germany (Zoom 0-13)",
     "region": "Europe - West",
