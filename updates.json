@@ -6,7 +6,7 @@
       "release_date": "2025-06-11",
       "description": "Added mail icon indicating unread messages. Added custom messages if set to the simulated data. Added simulated data for all profiles available",
       "s3_object_key_windows": "ComBrother_1.6.5.exe",
-      "checksum_sha256_windows": "a5eaddbfe72048e49d75b9615953831db7e3728a5756624d7b08362a2bf334fb",
+      "checksum_sha256_windows": "c33f9894eccb1afdc838fb174fb9dbde70d7b973b4b22f59e61c4f964fb156bf",
       "size_mb_windows": 48
     },
     {
