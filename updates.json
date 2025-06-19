@@ -4,7 +4,7 @@
     {
       "version": "1.6.5-beta",
       "release_date": "2025-06-11",
-      "description": "Added mail icon indicating unread messages. Added cheeck for updates. Added custom messages if set to the simulated data. Added simulated data for all profiles available",
+      "description": "Added mail icon indicating unread messages.\n Added cheeck for updates.\n Added custom messages if set to the simulated data.\n Added simulated data for all profiles available",
       "s3_object_key_windows": "ComBrother_1.6.5.exe",
       "checksum_sha256_windows": "796390c23c816dd257c3ebe095c30c0a599ec42df26a7813982e8c8709adec43",
       "size_mb_windows": 48
