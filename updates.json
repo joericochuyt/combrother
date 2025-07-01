@@ -6,7 +6,7 @@
       "release_date": "2025-06-30",
       "description": "This update introduces a complete, feature-rich Amateur Radio Logbook, fully integrated into the ComBrother application. The new module allows operators to log contacts efficiently, track activity, and maintain compliance with amateur radio standards.",
       "s3_object_key_windows": "ComBrother_1.6.6.exe",
-      "checksum_sha256_windows": "b21c83df7e0e2c2c2bb2c1c9831148917945274a064b30892a43bad268a46001",
+      "checksum_sha256_windows": "e6f967b31bad12c64eb6e0f0dbd97813533be0df09f492402a3e92c233d0c5f6",
       "size_mb_windows": 48
     },
     {
